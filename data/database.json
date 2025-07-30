@@ -1,0 +1,588 @@
+{
+  "id": "16ad7342-e571-80fb-8260-e0053556081b",
+  "object": "database",
+  "created_time": "2024-12-28T19:46:00Z",
+  "last_edited_time": "2025-07-06T06:14:00Z",
+  "created_by": {
+    "id": "ddf8f9da-d6d5-4c0a-ad8e-05836f719816",
+    "object": "",
+    "created_time": "0001-01-01T00:00:00Z",
+    "last_edited_time": "0001-01-01T00:00:00Z",
+    "type": ""
+  },
+  "last_edited_by": {
+    "id": "ddf8f9da-d6d5-4c0a-ad8e-05836f719816",
+    "object": "",
+    "created_time": "0001-01-01T00:00:00Z",
+    "last_edited_time": "0001-01-01T00:00:00Z",
+    "type": ""
+  },
+  "properties": {
+    "Category": {
+      "id": "%5BTeR",
+      "name": "Category",
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "6ab05fe1-51f5-42b8-ba5f-c6752b9801f1",
+            "name": "Data",
+            "color": "default"
+          },
+          {
+            "id": "343acf56-52ca-42ab-b232-4bd4eaf3285a",
+            "name": "Development",
+            "color": "pink"
+          },
+          {
+            "id": "00f4341c-918d-4d61-af73-90bbc2c99cfa",
+            "name": "Engineering",
+            "color": "brown"
+          },
+          { "id": "?pyA", "name": "Frontend", "color": "red" },
+          {
+            "id": "672a3842-a181-49c0-ad88-38fce1f0b7cc",
+            "name": "Hardware",
+            "color": "purple"
+          },
+          {
+            "id": "72767401-37d5-4dc1-99fc-ceb3f29b1be2",
+            "name": "DevOps",
+            "color": "blue"
+          },
+          { "id": "gqv}", "name": "Integration", "color": "yellow" },
+          {
+            "id": "e531571e-b66c-4e32-9613-95b8781ed596",
+            "name": "IoT",
+            "color": "gray"
+          },
+          {
+            "id": "55b801f5-7491-4894-936d-52703ead33d2",
+            "name": "Machine Learning",
+            "color": "red"
+          },
+          {
+            "id": "b3606f1e-d1ec-46d4-97bb-790eab265174",
+            "name": "Media",
+            "color": "orange"
+          },
+          {
+            "id": "0a8296f5-1a3c-4053-bd1e-7fbab964d7b4",
+            "name": "Search",
+            "color": "gray"
+          },
+          {
+            "id": "292b5905-f40b-4593-9ba3-64136a44c2d3",
+            "name": "Streaming",
+            "color": "green"
+          },
+          {
+            "id": "560b21ec-229b-4336-b385-2d144e442b0c",
+            "name": "Backend",
+            "color": "default"
+          },
+          {
+            "id": "fe30d710-4a4d-4d41-9308-a8e9adc68a65",
+            "name": "Containers",
+            "color": "default"
+          },
+          {
+            "id": "accaf093-904d-4eab-8038-6f5daecda578",
+            "name": "IDE",
+            "color": "default"
+          },
+          {
+            "id": "10f5139f-b513-4a90-ac5a-b6a182b4e13c",
+            "name": "Toolbox",
+            "color": "default"
+          },
+          {
+            "id": "0cf3ab08-2bd7-4834-8a39-1d701346e66c",
+            "name": "Directory",
+            "color": "default"
+          },
+          {
+            "id": "9c4e1e5d-4e95-4b83-b0a5-ddcd2c30b364",
+            "name": "Content Management",
+            "color": "default"
+          },
+          {
+            "id": "e12920da-9075-4044-9c1c-b7f4585835e7",
+            "name": "opensource",
+            "color": "default"
+          },
+          {
+            "id": "3da346da-fdec-4f5e-831e-61f9c43feed9",
+            "name": "DevEx",
+            "color": "default"
+          },
+          {
+            "id": "c7cfdadf-d24e-4dff-bc47-a4ab25918175",
+            "name": "Ideation",
+            "color": "default"
+          }
+        ]
+      }
+    },
+    "Created": { "id": "dkmT", "name": "Created", "type": "date", "date": {} },
+    "Created by": {
+      "id": "O%3BRg",
+      "name": "Created by",
+      "type": "created_by",
+      "created_by": {}
+    },
+    "Created time": {
+      "id": "jiVg",
+      "name": "Created time",
+      "type": "created_time",
+      "created_time": {}
+    },
+    "Date": { "id": "%7CK%3AF", "name": "Date", "type": "date", "date": {} },
+    "Deployment Type": {
+      "id": "ncO%3D",
+      "name": "Deployment Type",
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "fc5825b6-d6eb-4b66-9f6e-e98498a2b547",
+            "name": "CLI",
+            "color": "orange"
+          },
+          { "id": "Og~W", "name": "Hosted", "color": "purple" },
+          { "id": "uf}|", "name": "Local", "color": "gray" },
+          { "id": "`W\u003e{", "name": "Self-Hosted", "color": "blue" }
+        ]
+      }
+    },
+    "License": {
+      "id": "%7B%3BF~",
+      "name": "License",
+      "type": "select",
+      "select": {
+        "options": [
+          { "id": "rnkw", "name": "Perpetual", "color": "green" },
+          { "id": "c]Al", "name": "Subscription", "color": "purple" },
+          { "id": "}K^l", "name": "Free", "color": "gray" }
+        ]
+      }
+    },
+    "Name": { "id": "title", "name": "Name", "type": "title", "title": {} },
+    "Summary": {
+      "id": "O%7BVV",
+      "name": "Summary",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Tags": {
+      "id": "qF_V",
+      "name": "Tags",
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "6df4a13a-5be3-45c5-bf3f-ffa8992eb544",
+            "name": "test1",
+            "color": "pink"
+          },
+          {
+            "id": "9ff6f191-4458-49ae-b6ce-7301412decb3",
+            "name": "test2",
+            "color": "brown"
+          },
+          {
+            "id": "36fc5c5d-40b6-459d-af8f-b85ab79f1f97",
+            "name": "hls",
+            "color": "red"
+          },
+          {
+            "id": "e48878d5-fb01-425a-97fa-13777148c7fe",
+            "name": "streaming",
+            "color": "default"
+          },
+          {
+            "id": "a4840fd9-7a12-450e-b525-bbe764798d62",
+            "name": "dbt",
+            "color": "purple"
+          },
+          {
+            "id": "b73e1f3c-c98d-4723-aa92-b8bfe64d1549",
+            "name": "python",
+            "color": "orange"
+          },
+          {
+            "id": "53197f97-4d59-4659-b411-ffa3886be183",
+            "name": "pandas",
+            "color": "yellow"
+          },
+          {
+            "id": "63c37ce3-9e97-442e-819f-25580cca7028",
+            "name": "llm",
+            "color": "blue"
+          },
+          {
+            "id": "1e6bca21-095c-4e70-856c-08a0320cbc4f",
+            "name": "directory",
+            "color": "green"
+          },
+          {
+            "id": "f9412c26-863a-4e05-989f-2bad20756413",
+            "name": "testing",
+            "color": "gray"
+          },
+          {
+            "id": "ff18c18f-5ef8-4f5c-b435-32ce7f7d2afa",
+            "name": "evaluation",
+            "color": "pink"
+          },
+          {
+            "id": "d93f7b33-00f5-4c40-a1fe-2559365b8d98",
+            "name": "vectordb",
+            "color": "default"
+          },
+          {
+            "id": "de6b6e57-db77-4116-abe2-43c4cd640fae",
+            "name": "api",
+            "color": "orange"
+          },
+          {
+            "id": "a1629168-1aac-4293-bce4-d149f0859a59",
+            "name": "gsm",
+            "color": "gray"
+          },
+          {
+            "id": "b7e2283c-8929-4f20-9592-72cf3ffbc447",
+            "name": "wifi",
+            "color": "pink"
+          },
+          {
+            "id": "52f538b2-7b04-4e1e-b937-c96e9571e749",
+            "name": "lte",
+            "color": "purple"
+          },
+          {
+            "id": "a5fdcb1c-b3dc-459a-8ae5-10214c03bf79",
+            "name": "5g",
+            "color": "gray"
+          },
+          {
+            "id": "ee9a8e9a-517a-4565-8361-55b78cd827ae",
+            "name": "cidr",
+            "color": "yellow"
+          },
+          {
+            "id": "3aed99b4-d0e1-4c40-9f44-5366761b62da",
+            "name": "network",
+            "color": "green"
+          },
+          {
+            "id": "ba70ab0e-f29d-4074-a179-3421e22236ff",
+            "name": "go",
+            "color": "red"
+          },
+          {
+            "id": "03e47ad5-d8e0-4822-9e3a-8dffe5d2c41c",
+            "name": "cli",
+            "color": "red"
+          },
+          {
+            "id": "163567e8-a9c5-4304-a1eb-f6371f3f03aa",
+            "name": "ai",
+            "color": "red"
+          },
+          {
+            "id": "d5d4626b-6783-49b8-93d1-3191768d4a23",
+            "name": "shadcn",
+            "color": "blue"
+          },
+          {
+            "id": "1d98ef3d-17f5-4e96-8045-2e9809c132b6",
+            "name": "theme",
+            "color": "orange"
+          },
+          {
+            "id": "69e8875d-49ef-45dc-99d9-4716c924daaa",
+            "name": "svelte",
+            "color": "default"
+          },
+          {
+            "id": "cb3b8822-ebfe-4b2c-a3f5-17a5f8b74a70",
+            "name": "github",
+            "color": "default"
+          },
+          {
+            "id": "82881111-0123-4bc7-938b-4b08059971e2",
+            "name": "templates",
+            "color": "default"
+          },
+          {
+            "id": "8783b667-a964-4587-84bd-b0a6cc49c490",
+            "name": "components",
+            "color": "default"
+          },
+          {
+            "id": "eb1c186d-ba73-48f9-b031-e7e0940eb072",
+            "name": "billing",
+            "color": "default"
+          },
+          {
+            "id": "8bb77fc4-86d6-41f1-b547-bcca5f0fe181",
+            "name": "registry",
+            "color": "default"
+          },
+          {
+            "id": "3f52442c-d2f6-463b-bb4c-a955b6c15ec0",
+            "name": "astro",
+            "color": "default"
+          },
+          {
+            "id": "145b88d7-e36b-413a-b868-7bb7a72dfb13",
+            "name": "calendar",
+            "color": "default"
+          },
+          {
+            "id": "9d471758-0952-43f4-b236-7e71df423cab",
+            "name": "themes",
+            "color": "default"
+          },
+          {
+            "id": "ef4243ea-8637-4c2e-a37b-30e057fd29ee",
+            "name": "icons",
+            "color": "default"
+          },
+          {
+            "id": "c7ef6282-c961-45f7-be93-d7cb9b03ceaf",
+            "name": "date time",
+            "color": "default"
+          },
+          {
+            "id": "1c995c02-38ae-4628-9231-a3fe3fea7bb1",
+            "name": "vscode",
+            "color": "default"
+          },
+          {
+            "id": "037aeeb6-ed03-43be-abc5-77d152d25cf8",
+            "name": "tailwind",
+            "color": "default"
+          },
+          {
+            "id": "4d868287-5cfd-44b9-b5bb-24eb263e664d",
+            "name": "generator",
+            "color": "default"
+          },
+          {
+            "id": "a52f0915-1e86-48cc-ad51-dc1ebc7e5c41",
+            "name": "tool",
+            "color": "default"
+          },
+          {
+            "id": "607b1fb3-3094-49b3-9e74-cab60357acca",
+            "name": "fonts",
+            "color": "default"
+          },
+          {
+            "id": "77c70c6c-e30c-4ea0-b87e-6f7a092341e8",
+            "name": "js/ts",
+            "color": "default"
+          },
+          {
+            "id": "24259de0-1978-434a-bc58-7e8518399770",
+            "name": "messaging",
+            "color": "default"
+          },
+          {
+            "id": "92d5d537-bbae-43a2-bc2e-9c21ae2d854c",
+            "name": "npm",
+            "color": "default"
+          },
+          {
+            "id": "6f0f11b3-fe1c-4d97-8a02-31aee01cceea",
+            "name": "vscode extensions",
+            "color": "default"
+          },
+          {
+            "id": "c476d1a4-05fa-4595-83ed-a290a08c11ce",
+            "name": "websockets",
+            "color": "default"
+          },
+          {
+            "id": "ec081565-0b5b-4269-907d-b1ba5f7131bc",
+            "name": "orm",
+            "color": "default"
+          },
+          {
+            "id": "4658a560-a9ca-407c-9b8e-6fac78b0fabf",
+            "name": "databases",
+            "color": "default"
+          },
+          {
+            "id": "d47c430e-3247-4fd3-b601-dbae106b0446",
+            "name": "nestjs",
+            "color": "default"
+          },
+          {
+            "id": "3c07ce0b-0332-43d6-bc03-5dcab3674344",
+            "name": "trpc",
+            "color": "default"
+          },
+          {
+            "id": "97bd06d5-2b72-4e5f-985c-1fecb175e3a2",
+            "name": "logging",
+            "color": "default"
+          },
+          {
+            "id": "8966629c-b889-46d0-bb93-38ce1d4ac2fe",
+            "name": "benchmarking",
+            "color": "default"
+          },
+          {
+            "id": "0d0c07ba-aead-42fe-9aa4-c5afe1dfbc95",
+            "name": "builds",
+            "color": "default"
+          },
+          {
+            "id": "2db8b80b-7960-4552-b5d2-39debcb935b9",
+            "name": "core",
+            "color": "default"
+          },
+          {
+            "id": "9a80624f-3a9e-453c-8783-c6f79a5b7871",
+            "name": "subscribed",
+            "color": "default"
+          },
+          {
+            "id": "af7a530f-aa0a-4cc2-aa29-bb3ecf1bcdb3",
+            "name": "figma",
+            "color": "default"
+          },
+          {
+            "id": "7de7ac1f-b209-4493-9a8c-23b77bd75659",
+            "name": "awesome list",
+            "color": "default"
+          },
+          {
+            "id": "322c2192-7c03-40de-884b-13d74774f3bc",
+            "name": "chatgpt",
+            "color": "default"
+          },
+          {
+            "id": "5becf3bc-70d3-4f51-9524-542f1b25dcdb",
+            "name": "agents",
+            "color": "default"
+          },
+          {
+            "id": "ed3f0942-ab85-48c4-b5eb-d3c27ae67ee3",
+            "name": "swe",
+            "color": "default"
+          },
+          {
+            "id": "1cc251ea-e068-426b-9c28-3141d2ed2b2b",
+            "name": "alternatives",
+            "color": "default"
+          },
+          {
+            "id": "df1e5e0f-5e9d-4566-a1cd-7d0d6c7f471b",
+            "name": "opensource",
+            "color": "default"
+          },
+          {
+            "id": "d17a9630-56e9-46e6-aad2-c9f1d76b317a",
+            "name": "framework",
+            "color": "default"
+          },
+          {
+            "id": "951c7f9f-b075-4302-9eb2-8fc039262203",
+            "name": "mobile",
+            "color": "default"
+          },
+          {
+            "id": "9f183417-bae9-4003-a2f9-066fcf0ba1fc",
+            "name": "notifications",
+            "color": "default"
+          },
+          {
+            "id": "1ce19d0c-2ca9-4b21-a609-4b8128585f9e",
+            "name": "achitecture component",
+            "color": "default"
+          },
+          {
+            "id": "c9e6fa8e-d37f-41f1-926f-b2666a08a5c5",
+            "name": "builders",
+            "color": "default"
+          },
+          {
+            "id": "23f4a0f3-72cb-4c3f-9e61-4c60eab5b3ff",
+            "name": "mcp",
+            "color": "default"
+          },
+          {
+            "id": "3a687437-af22-4eb1-a418-bedf12631193",
+            "name": "models",
+            "color": "default"
+          },
+          {
+            "id": "a9e1b510-f678-4718-8f02-b4c51e8a0bc9",
+            "name": "eslint",
+            "color": "default"
+          },
+          {
+            "id": "8e5baf81-b61d-4e27-a57b-79246ec390b6",
+            "name": "standards",
+            "color": "default"
+          },
+          {
+            "id": "f623053a-7829-4759-a879-6e1c859ecd63",
+            "name": "ide",
+            "color": "default"
+          },
+          {
+            "id": "9b185376-d32c-4c17-9d24-e2e08f280aa8",
+            "name": "documentation",
+            "color": "default"
+          },
+          {
+            "id": "b9663d13-2aa6-4aea-8361-d7e700a216e5",
+            "name": "markdown",
+            "color": "default"
+          },
+          {
+            "id": "08c3d8f7-978c-4150-9023-f290264583bc",
+            "name": "tld",
+            "color": "default"
+          },
+          {
+            "id": "0765763f-e600-4460-8dd6-e8fb3cdeafcf",
+            "name": "domains",
+            "color": "default"
+          }
+        ]
+      }
+    },
+    "Text Content": {
+      "id": "n~%5ET",
+      "name": "Text Content",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "URL": { "id": "TmPU", "name": "URL", "type": "url", "url": {} }
+  },
+  "title": [
+    {
+      "type": "text",
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "Toolbox",
+      "text": { "content": "Toolbox" }
+    }
+  ],
+  "description": [],
+  "icon": { "type": "external" },
+  "parent": { "type": "workspace", "workspace": true },
+  "url": "https://www.notion.so/16ad7342e57180fb8260e0053556081b"
+}
