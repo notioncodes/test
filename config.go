@@ -7,6 +7,7 @@ import (
 
 	config "github.com/mateothegreat/go-config"
 	"github.com/mateothegreat/go-config/plugins/sources"
+	"github.com/mateothegreat/go-multilog/multilog"
 )
 
 var TestConfig *Conf
@@ -26,6 +27,11 @@ type Conf struct {
 
 func Setup() *Conf {
 	cfg := &Conf{}
+
+	multilog.RegisterLogger(multilog.LogMethod("console"), multilog.NewConsoleLogger(&multilog.NewConsoleLoggerArgs{
+		Level:  multilog.DEBUG,
+		Format: multilog.FormatText,
+	}))
 
 	_, filename, _, _ := runtime.Caller(0)
 	dir := filepath.Join(filepath.Dir(filename), "config.yaml")
