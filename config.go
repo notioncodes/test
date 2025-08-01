@@ -5,7 +5,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	config "github.com/mateothegreat/go-config"
+	"github.com/mateothegreat/go-config/validation"
+
+	"github.com/mateothegreat/go-config/config"
 	"github.com/mateothegreat/go-config/plugins/sources"
 	"github.com/mateothegreat/go-multilog/multilog"
 )
@@ -29,7 +31,7 @@ func Setup() *Conf {
 	cfg := &Conf{}
 
 	multilog.RegisterLogger(multilog.LogMethod("console"), multilog.NewConsoleLogger(&multilog.NewConsoleLoggerArgs{
-		Level:  multilog.DEBUG,
+		Level:  multilog.TRACE,
 		Format: multilog.FormatText,
 	}))
 
@@ -39,7 +41,7 @@ func Setup() *Conf {
 	err := config.LoadWithPlugins(
 		config.FromYAML(sources.YAMLOpts{Path: dir}),
 		config.FromEnv(sources.EnvOpts{Prefix: "APP"}),
-	).WithValidationStrategy(config.StrategyAuto).Build(cfg)
+	).WithValidationStrategy(validation.StrategyAuto).Build(cfg)
 	if err != nil {
 		log.Fatal(err)
 	}
